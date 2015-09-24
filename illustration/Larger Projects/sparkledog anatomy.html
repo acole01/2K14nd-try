@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Drawings and Design by Aaminah Cole</title>
+
+<link href='http://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="../../styles idw.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="../../styles m img.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="../../thumbnails.css" type="text/css" media="screen" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+<script src="../../jquery.cycle2.js"></script>
+<script src="../../jquery.cycle2.center.min.js"></script>
+</head>
+
+<body>
+<div id="whole">
+        <div id="boundingbox">
+            <div id="flag" style="border: white;">
+            <a href="#" id="home"><img src="../../logo.jpg" width="80px" /></a><br /><br />
+            <a href="../../about.html" id="abt">Aaminah Cole</a><br />
+			<a href="../../illustration.html" class="m3l" id="illusl">Illustration</a>&#8226;
+            <a href="../../design.html" class="m3l"id="desl">Design</a>&#8226;
+            <a href="../../pattern/bears/index.html" class="m3l"id="patternl">Pattern</a><br />
+
+              <div id="copyright"> All content ©<br />Aaminah Cole 2013</div>
+              </div>
+              <img src="../../218flagbw.png" id="flagbottom" width="218px" />
+            <div id="rightbody"> 
+            	
+                <div class="rbcontent">
+                     
+                    <!-- Robyn Project Page-->
+                    <div class="project robyn lp" id="robynpp">
+                         <div class="rbmimg" style="overflow-x:auto">
+                        	<img src="../../imgs/projects/robyn1/longsheet.png" height="550px" style="width: 2000px ! important;" />
+						</div>
+                        <div class="projectinfo robyn" > Robyn: Anatomy of a Monster<br />
+                            <div class="projyear">2012</div>
+                            <div class="projecttext robyn">
+                            <i><b>What the hell is a sparkledog?</b></i> An unlikely question with a more improbable answer. The absurd contrast between fantastical doge and medical illustration tickled my funny bone just right and I set about answering visually, a product of my love for both information graphics and the ridiculous online subcultures that were formative in my youth.
+                            </div>
+                            <div class="projectsidegal robyn">
+                            <img src="../../imgs/projects/robyn1/robn 2012s.jpg" /><br />
+                            all line layers
+                            <img src="../../imgs/projects/robyn1/glitchguts sm.jpg" /><br />
+                            really cool glitch happened
+                            </div>
+                         </div>
+                    </div>
+                         
+</div>
+<script>
+$(document).ready(function(){
+		var windowHeight = $(window).height();
+	$('.project').css({maxHeight:windowHeight - 155});	
+	$(".thumbpage").hide();
+	$(".active").hide();
+	$("#icongal").show();
+	$("#icona").show();
+	$("#icon0").hide();
+});
+function jqUpdateSize(){
+	$(document).ready(jqUpdateSize);
+	var width = $(window).width();
+    var height = $(window).height();
+    $('#jqWidth').html(width);
+	$('#jqHeight').html(height);
+};
+//mainlinks
+$("#patl").click(function(){
+	window.location.href = "patterns.html";
+        });
+$("#sketchl").click(function(){
+	window.location.href = "sketches.html";
+        });
+$("#illusl").click(function(){
+	window.location.href = "illustration.html";
+        });
+$("#desl").click(function(){
+	window.location.href = "design.html";
+        });
+$("#wordl").click(function(){
+	window.location.href = "words.html";
+        });
+$("#abt").click(function(){
+	window.location.href = "about.html";
+        });
+$("#home").click(function(){
+	window.location.href = "index.html";
+        });
+//pagelinks
+		
+  </script>
+</body>
+</html>

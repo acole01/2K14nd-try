@@ -1,0 +1,198 @@
+@charset "utf-8";
+/* CSS Document */
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700,700italic,900,900italic);
+
+.headerb{
+	display:inline-block;
+	background-color: ;
+	position:relative;
+	height: 105px;
+	width:100%;
+	border-bottom: 1px solid black;
+	z-index:4;
+}
+.headerc{
+	font-family: 'Playfair Display';
+	font-weight:900;
+	font-style:italic;
+	font-size: 72px;
+	position:absolute;
+	vertical-align:bottom;
+	left: 28px;
+	bottom: -8px;
+	max-width:inherit;
+	overflow:hidden;
+}
+.headnav{
+	display:inline;
+	font-size:18px; 
+	font-family: 'Playfair Display';
+	font-style:italic;
+	font-weight:400;
+}
+.headnav a{
+	color:#000;
+	text-decoration:none;
+}
+.headnav a:hover{
+	text-decoration:underline;
+}
+#rightbody{
+	position:absolute;
+	top: 0px;
+	left:229px;
+	width:802px;
+	max-height: 100%;
+	border-left: 1px solid #999;
+	border-right: 1px solid #999;
+	border-bottom: 1px solid #999;
+	background-color: white;
+	padding-bottom: 30px;
+	
+}
+.rbcontent{
+	position: relative;
+	background-color: ;
+	height: auto;
+	overflow-x:hidden;
+	}
+.thumbpage{
+	display: inline-block;
+	height: auto;
+	position: inherit;
+	left:28px;
+	background-color: ;
+	width: 774px;
+	z-index: 4;
+}
+.pcont{
+	width: 738px;
+	position: inherit;
+	left: 28px;
+}
+.project{	
+	display: inline-block;
+	background: ;
+	position: relative;
+	width: 774px;
+	left: 28px;
+	z-index: 4;
+	
+}
+/*project should never overflow, thats rbcontent*/
+.bgmat{
+	position:fixed;
+	top: 0px;
+	left: 0px;
+	background-color: black;
+}
+.nextprev{
+	position: absolute;
+	display:inline;
+	width: 738px;
+	height: 60px;
+	margin-top: 200px;
+	background-color: transparent;
+	z-index: 1;
+}
+.nextprevn{
+	position:absolute;
+	right:0;
+}
+.nextprevp{
+	position:absolute;
+	left:0
+}
+.nextprev img{
+	z-index: 10;
+}
+.rbmimg{
+	text-align:center;
+	max-width: 738px !important;
+	max-height: 560px;
+	background-color: ;
+	position: relative;
+	top: 30px;
+	overflow-y: hidden;
+	overflow-x:auto;
+	margin-bottom: 40px;
+}
+.rbmimg img{
+	max-height: 560px;
+}
+
+#countb{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 18px;
+	color: #999;
+	position: inherit;
+	width: 738px;
+	display: block;
+	background-color: ;
+	text-align:right;
+	z-index: 10;
+}
+.count{
+	display:inline;
+	}
+.projectinfo{
+	position:relative;
+	width: 738px;
+	display:block;/*chnged*/
+	border-top: 1px solid #000;
+	font-size:48px;
+	font-family:'Playfair Display';
+	font-weight:700;
+	font-style:normal;
+	background-color: ;
+	
+}
+.projyear{
+	color:#999; 
+	font-size:24px; 
+	position: inherit;
+	font-family:'Times', Times, serif; 
+	font-weight:bold; 
+	line-height: 18px;
+	margin-bottom: 5px;
+	background: ;
+	}
+.projecttext{
+	position: inherit;
+	float:left;
+	width:480px;
+	font-size:18px;
+	font-family:"Times New Roman", Times, serif;
+	font-weight:400;
+	text-align:justify;
+	background: ;
+}
+.projectsidegal{
+	float:right;
+	border-left:1px solid #ccc;
+	max-width: 240px;
+	background-color: ;
+	padding: 5px 0px 5px 7px;
+	font-size:12px;
+	font-style:italic;
+	font-family: "Times New Roman", Times, serif;
+	text-align:center;
+}
+.projectsidegal img{
+	margin-bottom: 7px;
+	max-width: 100%;
+}
+#hlbox{
+	position: absolute;
+	text-align:center;
+	top: 30px;
+	width: 738px;
+	height: auto;
+	background-color:  ;
+	margin-bottom: 65px;
+}
+.hlss, .hlss img{
+	max-width:100%;
+	max-height: 500px;
+	
+}

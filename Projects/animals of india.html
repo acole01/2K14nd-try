@@ -1,0 +1,115 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Drawings and Design by Aaminah Cole</title>
+
+<link rel="stylesheet" href="../styles idw.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="../styles m.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="../thumbnails.css" type="text/css" media="screen" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+<script src="../jquery.cycle2.js"></script>
+<script src="../jquery.cycle2.center.min.js"></script>
+</head>
+
+<body>
+<div id="whole">
+    <div id="boundingbox">
+        <div id="flag" style="">
+            <a href="#" id="home"><img src="../logo.jpg" width="80px" /></a><br /><br />
+            <a href="#" id="abt">Aaminah Cole</a><br />
+			<a href="#" class="m3l" id="illusl">Illustration</a>&#8226;
+            <a href="#" class="m3l"id="desl">Design</a>&#8226;
+            <a href="#" class="m3l"id="wordl">Words</a><br />
+            <div id="copyright"> All content ©<br />Aaminah Cole 2013</div>
+          </div>
+            <img src="../flagbottom bb.gif" id="flagbottom" width="218px" />
+         <div id="rightbody"> 
+         	<div class="headerb">
+                <div class="headerc">
+					<a href="#" id="imain">Animals of India</a> 
+                    <div class="headnav">Art Book / Lettering/ Icons</div>
+                </div>
+            </div>
+          	<div class="rbcontent">
+                    <!--Project Page-->
+                    <div class="project">
+                    
+                    	<div class="rbmimg"> 
+                        <div class="cycle-slideshow" 
+    data-cycle-manual-fx="scrollHorz" 
+    data-cycle-timeout=0
+    data-cycle-prev=#indprev
+    data-cycle-next=#indnext
+    data-cycle-loader=wait
+    data-cycle-center-horz=true
+    data-cycle-center-vert=true
+    data-cycle-caption="#indcount"
+    data-cycle-caption-template="{{slideNum}} / {{slideCount}}"
+    >
+                            <img src="../imgs/projects/ind/cover t 2.jpg" />
+                            <img src="../imgs/projects/ind/front t.jpg" />
+                            <img src="../imgs/design/Icons/indicons/InOrderofAppearance_AaminahCole.jpg" />
+                            <img src="../imgs/design/Icons/indicons/ganesh.jpg" />
+                            <img src="../imgs/projects/ind/3indicon.jpg" />
+                            <img src="../imgs/projects/ind/Page0010t.jpg" />
+                            <img src="../imgs/projects/ind/DSCN1896.JPG" />
+                            <img src="../imgs/projects/ind/DSCN1897.JPG" />
+                            <img src="../imgs/projects/ind/back t.jpg" />
+                            <img src="../imgs/projects/ind/wrap pat.jpg" />
+                        </div>                      	
+                        </div>
+                        <div id="countb" ><a href="#" id="indprev">&lt;</a><div id="indcount" class="count"></div><a href="#" id="indnext">&gt;</a></div>
+                        <div class="projectinfo" > 
+                            <div class="projecttext">
+                            <p>
+                            I created this book as a gift for a friend upon learning he had taken a trip to India over winter break but was too busy to see the sights. India's wildlife is some of my favorite, and I keep a strict daily regimen of studies (usually wildlife studies), why not combine the two in an affectionate gesture? I made this book on top of an already overloaded course schedule. Filling 26 pages with art was easy; the difficulty lay in creating a wholly designed object&mdash;everything, font, icons, patterns, and layout&mdash;then assembling it by hand for a one of a kind, precious art object.<br />
+                            exploring mass print options for 2014. </p>
+                            </div>
+                            <div class="projectsidegal">                           
+                            </div>
+                        </div>
+                    </div>
+                    </div><!---->
+                </div> <!--rbc-->            
+			</div> <!--rb-->      
+		</div><!--bb-->
+	
+</div>
+<script>
+$(document).ready(function(){
+	 var windowHeight = $(window).height();
+	 var windowWidth = $(window).width();
+	$('.project').css({maxHeight:windowHeight - 155});
+	$(".active").hide();
+	$(".im").show();
+});
+//mainlinks
+$("#patl").click(function(){
+	window.location.href = "../patterns.html";
+        });
+$("#sketchl").click(function(){
+	window.location.href = "../sketches.html";
+
+        });
+$("#illusl").click(function(){
+	window.location.href = "../illustration.html";
+        });
+$("#desl").click(function(){
+	window.location.href = "../design.html";
+        });
+$("#wordl").click(function(){
+	window.location.href = "../words.html";
+        });
+$("#abt").click(function(){
+	window.location.href = "../about.html";
+        });
+$("#home").click(function(){
+	window.location.href = "../index.html";
+        });
+//pokey show
+$("#pokeypp").show();
+
+</script>
+</body>
+</html>

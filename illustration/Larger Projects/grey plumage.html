@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Drawings and Design by Aaminah Cole</title>
+
+<link href='http://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="styles idw.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="styles m.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="thumbnails.css" type="text/css" media="screen" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+<script src="jquery.cycle2.js"></script>
+<script src="jquery.cycle2.center.min.js"></script>
+</head>
+
+<body>
+<div id="whole">
+        <div id="boundingbox">
+            <div id="flag" style="border: white;">
+            <a href="#" id="home"><img src="logo.jpg" width="80px" /></a><br /><br />
+            <a href="#" id="abt">Aaminah Cole</a><br />
+            <span style="font-size:16px;">
+			<a href="#" class="m3l"id="illusl">Illustration</a>&#8226;
+            <a href="#" class="m3l"id="desl">Design</a>&#8226;
+            <a href="#" class="m3l"id="wordl">Words</a></span><br />
+
+              <div id="copyright"> All content ©<br />Aaminah Cole 2013</div>
+              </div>
+              <img src="218flagbw.png" id="flagbottom" width="218px" />
+            <div id="rightbody"> 
+            	
+                <div class="rbcontent">
+                     
+                    <div class="project" id="gppp">
+                    	<div class="rbmimg">
+                        <div class="cycle-slideshow" 
+    data-cycle-manual-fx="scrollHorz" 
+    data-cycle-timeout=0
+    data-cycle-prev=#gpprev
+    data-cycle-next=#gpnext
+    data-cycle-loader=wait
+    data-cycle-center-horz=true
+    data-cycle-center-vert=true
+    data-cycle-caption="#gpcount"
+    data-cycle-caption-template="{{slideNum}} / {{slideCount}}"
+    >
+                        	<img src="imgs/projects/gp/cockatiel small.png" />
+                            <img height="100%"src="imgs/projects/gp/pigeonsmall.png" />
+                            <img height="100%"src="imgs/projects/gp/catbird2 small.png" />
+                            <img height="100%"src="imgs/projects/gp/grey3.png" />
+                        </div>
+                        </div>
+                        <div id="countb" ><a href="#" id="gpprev">&lt;</a><div id="gpcount" class="count"></div><a href="#" id="gpnext">&gt;</a></div>
+                        <div class="projectinfo" >
+                        Grey Plumage<br />
+                            <div class="projyear">Summer 2011~ Ongoing</div>
+                            <div class="projecttext">
+                            This series began as an attempt to mask my style and push my work to look more "legitimate".<br />
+Before this series, I had relied on linework to help me define forms; without line, I could focus in on shape as I hadn't been able before. The subject matter is of little significance other than to lend cohesion to this stylistic exploration.
+                            </div>
+                            <div class="projectsidegal">                           
+                            </div>
+                        </div>
+                  </div>
+                         
+</div>
+<script>
+$(document).ready(function(){
+		var windowHeight = $(window).height();
+	$('.project').css({maxHeight:windowHeight - 155});	
+	$(".thumbpage").hide();
+	$(".active").hide();
+	$("#icongal").show();
+	$("#icona").show();
+	$("#icon0").hide();
+});
+function jqUpdateSize(){
+	$(document).ready(jqUpdateSize);
+	var width = $(window).width();
+    var height = $(window).height();
+    $('#jqWidth').html(width);
+	$('#jqHeight').html(height);
+};
+//mainlinks
+$("#patl").click(function(){
+	window.location.href = "patterns.html";
+        });
+$("#sketchl").click(function(){
+	window.location.href = "sketches.html";
+        });
+$("#illusl").click(function(){
+	window.location.href = "illustration.html";
+        });
+$("#desl").click(function(){
+	window.location.href = "design.html";
+        });
+$("#wordl").click(function(){
+	window.location.href = "words.html";
+        });
+$("#abt").click(function(){
+	window.location.href = "about.html";
+        });
+$("#home").click(function(){
+	window.location.href = "index.html";
+        });
+//pagelinks
+		
+  </script>
+</body>
+</html>

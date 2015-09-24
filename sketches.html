@@ -1,0 +1,196 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Drawings+Design by Aaminah Cole</title>
+<link href='http://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="styles sk.css" type="text/css" media="screen" />
+<script type="text/javascript" src="jquery-1.5.min.js"></script>
+</head>
+
+<body>
+
+<div id="whole">
+        <div id="boundingbox">
+            <div id="flag">
+            <a href="#" id="home"><img src="logo.jpg" width="50px" /></a><br />
+            <a href="#" class="m3l" id="illusl">Illustration</a>&#8226;
+            <a href="#" class="m3l"id="desl">Design</a>&#8226;
+            <a href="#" class="m3l"id="wordl">Words</a></span><br />
+
+              <div id="copyright"> <i>All content ©Aaminah Cole 2013</i></div>
+            </div><!--endflag-->
+	    <img src="flagbottom bb.gif" id="flagbottom" width="218px" />
+            <div class="headerb">
+           	  <div class="headerc">
+					Sketches 
+                    	<div class="headnav">
+                    
+                            <div id="studieswl" class="inl">Studies:
+                            	<div class="studiesa">Wildlife</div> 
+                            	<a href="#" id="figurel" class="studyaltlink">Figure</a>
+                            </div>
+                            <div id="studiesfig" class="inl">
+                            	Studies:		
+                           		<a href="#" id="wildlife" class="studyaltlink">Wildlife</a> 
+                           		<div class="studiesa">Figure</div>
+                            </div>                           
+                            <div id="studies0" class="inl">
+                            <a href="#" id="s0l">Studies</a></div>
+                       /
+                       <div id="sb0" class="inl"> 
+                       <a href="#" id="sbl">Sketchbook</a></div>
+                       <div id="sb1" class="inl active">Sketchbook</div>
+                       / <a href="#" id="ddl">Daily Doodle</a>
+                       </div><!--endheadnav-->
+                    </div> 
+                </div><!--endheaderb-->
+             </div>
+             <div id="topbar">
+             	<div id="sketchprotect"></div>                 
+                 <div class="scrollsketch" id="sswl">
+                    <div class="offset"></div>
+                    <img src="imgs/illustration/sketch/wl/owl 1.jpg" />
+                    <img src="imgs/illustration/sketch/wl/owl 2.jpg" />
+                    <img src="imgs/illustration/sketch/wl/owl 3.jpg" />
+                    <img src="imgs/illustration/sketch/wl/catback.jpg" />
+                    <img src="imgs/illustration/sketch/wl/wl ges 1.jpg" />
+                    <img src="imgs/illustration/sketch/wl/wl ges 2.jpg" />
+                    <img src="imgs/illustration/sketch/wl/wl ges 3.jpg"/>
+                    <img src="imgs/illustration/sketch/wl/wl ges 4.jpg" />
+                    <img src="imgs/illustration/sketch/wl/wl ges 5.jpg" />
+                    <img src="imgs/illustration/sketch/wl/wl ges 6.jpg" />
+                    <img src="imgs/illustration/sketch/wl/wl ges 7.jpg" />
+                 </div>
+                 <div class="scrollsketch" id="ssfig">
+                 <div id="sketchprotect"></div>
+                    <div class="offset"></div>
+                    <img src="imgs/illustration/sketch/fig/1.jpg" />
+                    <img src="imgs/illustration/sketch/fig/6.jpg" />
+                    <img src="imgs/illustration/sketch/fig/4.jpg" />
+                    <img src="imgs/illustration/sketch/fig/2.jpg" />
+                    <img src="imgs/illustration/sketch/fig/3.jpg" />
+                    <img src="imgs/illustration/sketch/fig/0.jpg" />
+                    <img src="imgs/illustration/sketch/fig/8.jpg" />
+                    <img src="imgs/illustration/sketch/fig/9.jpg" />
+                    <img src="imgs/illustration/sketch/fig/10.jpg"/>
+                 </div>
+                 <div id="sssb" class="scrollsketch"> 
+                     <div id="sbcs"> COMING SOON!</div>          
+                     <div id="sketchprotect"></div>
+                     <div class="offset"></div>
+                     <img src="imgs/illustration/sketch/sb/covers/batbook600.png" />
+                     <img src="imgs/illustration/sketch/sb/covers/edcbook600.png" />
+                     <img src="imgs/illustration/sketch/sb/covers/marbleblue600.png" />
+                 </div>
+            </div><!--end#topbar-->
+            
+          
+<script>
+$(document).ready(function() {
+    var windowWidth = $(window).width();
+	var offsetWidth = windowWidth/2-280;
+    $(".offset").css({
+       width: offsetWidth 
+	  });
+	 var windowWidth = $(window).width();
+    $("#topbar").css({
+       width: windowWidth
+	  });
+	  var accum_width = 0;
+$('#sswl').find('img').each(function() {
+   accum_width += $(this).width() + 5;
+});
+$('#sswl').width(accum_width + offsetWidth);
+		  var accum_width = 0;
+$('#ssfig').find('img').each(function() {
+   accum_width += $(this).width() + 5;
+});
+$('#ssfig').width(accum_width + offsetWidth);
+		  var accum_width = 0;
+$('#sssb').find('img').each(function() {
+   accum_width += $(this).width() + 5;
+});
+$('#sssb').width(accum_width + offsetWidth);
+//findwidth
+$(document).ready(function() {
+		var wlwidth = $('#sswl').width();
+		var figwidth = $('#ssfig').width();
+		var sbwidth = $('#sssb').width();
+
+//alert( figwidth + ' ' + wlwidth+ ' ' +sbwidth )
+$('#ssfig').css({
+	minWidth: 3336
+	});
+	$('#sswl').css({
+	minWidth:  6346
+	});
+});
+//sketchbook
+var cswidth = $('#sboverlay, #madblink').width();
+var cshalved = cswidth/2;
+var wdohalved = windowWidth/2; 
+$("#sboverlay, #madblink").css({marginLeft: wdohalved-cshalved});
+		$(".scrollsketch").hide();
+	 	$("#studieswl").show();
+			$("#sswl").show();
+		$("#studiesfig").hide();
+		$("#studies0").hide();
+		$(".active").hide();
+});
+//firstshows//
+$("#illusl").click(function(){
+	window.location.href = "illustration.html";
+        });
+$("#desl").click(function(){
+	window.location.href = "design.html";
+        });
+$("#wordl").click(function(){
+	window.location.href = "words.html";
+        });
+$("#abt").click(function(){
+	window.location.href = "about.html";
+        });
+$("#home").click(function(){
+	window.location.href = "index.html";
+        });
+//mainlinks//
+	$("#figurel").click(function(){
+		 $("#studieswl").hide(); 
+		 $("#studiesfig").show();
+		 $(".scrollsketch").hide();
+		 $("#ssfig").show();
+		 $("#topbar").scrollLeft(0);
+	});
+	$("#wildlife").click(function(){
+		$("#studieswl").show();
+			$(".scrollsketch").hide();
+			$("#sswl").show();
+			$("#topbar").scrollLeft(0);
+		$("#studiesfig").hide();
+	});
+	$("#sbl").click(function(){
+		$("#studieswl").hide();
+		$("#studiesfig").hide();
+		$("#studies0").show();
+		$("#sb0").hide()
+		$("#sb1").show()
+		$(".scrollsketch").hide();
+		$("#sssb").show()
+		$("#sbcs").show()
+	});
+	$("#s0l").click(function(){
+		$(".scrollsketch").hide();
+		$("#studieswl").show();
+			$("#sswl").show();
+			$("#sb1").hide()
+			$("#sb0").show()
+		$("#studiesfig").hide();
+		$("#studies0").hide();
+	});
+	$("#ddl").click(function(){
+	window.location.href = "http://snacknite.tumblr.com";
+	});
+</script>
+</body>
+</html>

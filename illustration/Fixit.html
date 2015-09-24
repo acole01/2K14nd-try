@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Mr.Fixit</title>
+
+<link href='http://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="../styles idw.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="../styles m.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="../thumbnails.css" type="text/css" media="screen" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+<script src="../jquery.cycle2.js"></script>
+<script src="../jquery.cycle2.center.min.js"></script>
+</head>
+
+<body>
+<div id="whole">
+        <div id="boundingbox">
+            <div id="flag" style="border: white;">
+             <a href="#" id="home"><img src="../logo.jpg" width="80px" /></a><br /><br />
+            <a href="../../about.html" id="abt">Aaminah Cole</a><br />
+			<a href="../../illustration.html" class="m3l" id="illusl">Illustration</a>&#8226;
+            <a href="../../design.html" class="m3l"id="desl">Design</a>&#8226;
+            <a href="../../pattern/bears/index.html" class="m3l"id="patternl">Pattern</a><br />
+              <div id="copyright"> All content ©<br />Aaminah Cole 2013</div>
+              </div>
+              <img src="../218flagbw.png" id="flagbottom" width="218px" />
+            <div id="rightbody"> 
+            	
+                <div class="rbcontent">
+                    <!--fixit illus Page-->
+                    <div class="project" id="fixpp">
+                    	<div class="rbmimg"> 
+                        <img src="../imgs/illustration/IG/mr-fixit_AaminahCole.jpg" />
+                        </div>
+                        <div class="projectinfo" > Mr. Fix It<br />
+                            <div class="projyear">Fall 2013</div>
+                            <div class="projecttext">
+                            Poster Design/Personal work<br />
+							My tribute to Richard Scarry's <i>Busytown</i>.
+                            </div>
+                        </div>
+                    </div><!---->
+                         
+</div>
+<script>
+$(document).ready(function(){
+		var windowHeight = $(window).height();
+	$('.project').css({maxHeight:windowHeight - 155});	
+	$(".thumbpage").hide();
+	$(".active").hide();
+	$("#icongal").show();
+	$("#icona").show();
+	$("#icon0").hide();
+});
+function jqUpdateSize(){
+	$(document).ready(jqUpdateSize);
+	var width = $(window).width();
+    var height = $(window).height();
+    $('#jqWidth').html(width);
+	$('#jqHeight').html(height);
+};
+//mainlinks
+$("#patl").click(function(){
+	window.location.href = "patterns.html";
+        });
+$("#sketchl").click(function(){
+	window.location.href = "sketches.html";
+        });
+$("#illusl").click(function(){
+	window.location.href = "illustration.html";
+        });
+$("#desl").click(function(){
+	window.location.href = "design.html";
+        });
+$("#wordl").click(function(){
+	window.location.href = "words.html";
+        });
+$("#abt").click(function(){
+	window.location.href = "about.html";
+        });
+$("#home").click(function(){
+	window.location.href = "index.html";
+        });
+//pagelinks
+		
+  </script>
+</body>
+</html>

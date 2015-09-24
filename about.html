@@ -1,0 +1,141 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Drawings and Design by Aaminah Cole</title>
+
+<link href='http://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="styles idw.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="styles m.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="thumbnails.css" type="text/css" media="screen" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+<script src="jquery.cycle2.js"></script>
+<script src="jquery.cycle2.center.min.js"></script>
+</head>
+
+<body>
+<div id="whole">
+        <div id="boundingbox">
+            <div id="flag" style="">
+            <a href="#" id="home"><img src="logo.jpg" width="80px" /></a><br /><br />
+            <a href="/" id="abt">Aaminah Cole</a><br />
+            <span style="font-size:16px;">
+			<a href="#" class="m3l"id="illusl">Illustration</a>&#8226;
+            <a href="#" class="m3l"id="desl">Design</a>&#8226;
+            <a href="#" class="m3l"id="wordl">Words</a></span><br />
+
+              <div id="copyright"> All content ©<br />Aaminah Cole 2013</div>
+              </div>
+              <img src="flagbottom bb.gif" id="flagbottom" width="218px" />
+            <div id="rightbody"> 
+            	<div class="headerb">
+                	<div class="headerc" style="bottom: -4px;">
+					<a href="#" id="desl">&nbsp;About</a>
+                    </div> 
+                </div>
+                <div class="rbcontent">
+                
+                     <!--ind icons Project Page-->
+                    	<div style="float:left;  max-width: 400px; padding: 20px 10px 20px 20px; margin-right: 20px;"> <div id="countb" style="position: absolute; left: -320px; bottom: -5px;"><a href="#" id="abtprev">&lt;</a><div id="abtcount" class="count"></div><a href="#" id="abtnext">&gt;</a></div>
+                        <div class="cycle-slideshow" 
+    data-cycle-manual-fx="scrollHorz" 
+    data-cycle-timeout=0
+    data-cycle-prev=#abtprev
+    data-cycle-next=#abtnext
+    data-cycle-loader=wait
+    data-cycle-center-horz=true
+    data-cycle-center-vert=true
+    data-cycle-caption="#abtcount"
+    data-cycle-caption-template="{{slideNum}} / {{slideCount}}"
+    >
+                        <img src="imgs/about/selfie 1.jpg"/>        	
+                        <img src="imgs/about/self portrait.jpg" />
+                        </div>
+                        
+                        </div>
+                        
+                        <div class="projectinfo" style="border-top: none ;padding: 30px 0px 0px 10px;" > 
+                        Hello!<br />
+                            <div class="projecttext" style="float:right;font-size: 14px; max-width: 290px;">
+                            <p>My name is Aaminah Cole, I'm a 21 year old illustration student currently in her final year at MICA.</p><p>It can probably be said for all illustrators, but I am an extremely visually oriented person&mdash;love to look and can find inspiration from the most unexpected sources.My interests are wide ranging, from Euclidian geometry to extreme electronic music and these varied influences are felt in my equally eclectic work. As my work shows, I'm confident in my ability to work in more than just illustrative capacity. If you have a special project in mind, shoot me an email and we can work out the details.</p> <p>Contact:<br />
+aaminahc@gmail.com
+                            
+                            </div>
+                        </div>
+                    </div><!---->
+<script>
+$(document).ready(function(){
+		var windowHeight = $(window).height();
+	$('.project').css({maxHeight:windowHeight - 155});	
+	$(".thumbpage").hide();
+
+});
+function jqUpdateSize(){
+	$(document).ready(jqUpdateSize);
+	var width = $(window).width();
+    var height = $(window).height();
+    $('#jqWidth').html(width);
+	$('#jqHeight').html(height);
+};
+//mainlinks
+$("#patl").click(function(){
+	window.location.href = "patterns.html";
+        });
+$("#sketchl").click(function(){
+	window.location.href = "sketches.html";
+        });
+$("#illusl").click(function(){
+	window.location.href = "illustration.html";
+        });
+$("#desl").click(function(){
+	window.location.href = "design.html";
+        });
+$("#wordl").click(function(){
+	window.location.href = "words.html";
+        });
+$("#abt").click(function(){
+	window.location.href = "about.html";
+        });
+$("#home").click(function(){
+	window.location.href = "index.html";
+        });
+//pagelinks
+		$("#icon0,#icona, #desl").click(function(){
+			$(".project").hide();
+			$("#icongal").show();
+			$("#webgal").hide();
+			$("#weba").hide()
+			$("#web0").show()
+		});
+		$("#web0").click(function(){
+			$(".project").hide();
+			$("#webgal").show();
+				$("#weba").show();
+				$("#web0").hide();
+			$("#icongal").hide();
+				$("#icona").hide();
+				$("#icon0").show();
+		});
+		$("#custpl").click(function(){
+			$("#custpp").show();
+			$(".thumbpage").hide();
+		});
+		$("#indipl").click(function(){
+			$("#indipp").show();
+			$(".thumbpage").hide();
+		});
+		$("#comipl").click(function(){
+			$("#comipp").show();
+			$(".thumbpage").hide();
+		});
+		$("#myipl").click(function(){
+			$("#myipp").show();
+			$(".thumbpage").hide();
+		});
+		$("#iyspl").click(function(){
+			$("#iyspp").show();
+			$(".thumbpage").hide();
+		});
+  </script>
+</body>
+</html>

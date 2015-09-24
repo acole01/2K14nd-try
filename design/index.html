@@ -1,0 +1,168 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Drawings and Design by Aaminah Cole</title>
+
+<link href='http://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="../styles idw.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="../styles m.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="../thumbnails.css" type="text/css" media="screen" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+<script src="../jquery.cycle2.js"></script>
+<script src="../jquery.cycle2.center.min.js"></script>
+</head>
+
+<body>
+<div id="whole">
+        <div id="boundingbox">
+            <div id="flag" style="border: white;">
+            <a href="#" id="home"><img src="../logo.jpg" width="80px" /></a><br /><br />
+            <a href="#" id="abt">Aaminah Cole</a><br />
+            <span style="font-size:16px;">
+			<a href="#" class="m3l"id="illusl">Illustration</a>&#8226;
+            <a href="#" class="m3l"id="desl">Design</a>&#8226;
+            <a href="#" class="m3l"id="wordl">Words</a></span><br />
+
+              <div id="copyright"> All content ©<br />Aaminah Cole 2013</div>
+              </div>
+              <img src="../218flagbw.png" id="flagbottom" width="218px" />
+            <div id="rightbody"> 
+            	<div class="headerb">
+                	<div class="headerc" style="bottom: -4px;">
+					<a href="#" id="desl">Design</a> <div class="headnav"> 
+                        <a href="#" id="icon0">Icons</a>
+                        <a href="#" id="icona" class="active inl">Icons</a>
+                         / 
+                        <a href="#" id="web0">Web</a>
+                        <a href="#" id="weba" class="active inl">Web</a>
+                        / 
+                        <a href="#" id="patl">Pattern</a></div>
+                    </div> 
+                </div>
+                <div class="rbcontent">
+                <div class="thumbpage" id="icongal">
+					<div class="yearbar"> <div class="year">Vector</div></div>
+                        <a href="india%20icons.html" id="indipl">
+                        <img class="thumb" src="../imgs/thunbs/indanthumb.jpg" /></a>
+                        <a href="commissioned%20icons.html" id="comipl">
+                        <img src="../imgs/thunbs/vicomthumb.jpg" /></a>
+                        <a href="story sheets.html" id="myipl">
+                        <img class="thumb" src="../imgs/thunbs/mychariconthumb.jpg" /></a>
+                    <div class="yearbar"> <div class="year">Customization</div></div>
+                    	<a href="#" id="custpl">
+                   		<img class="thumb" src="../imgs/thunbs/customize.jpg" /></a>
+                  
+                </div>
+                
+                <div class="thumbpage" id="webgal">
+					<div class="yearbar"> <div class="year">2013</div></div>
+                    <img src="imgs/thunbs/acthumb.gif" /> <br />(writeup coming soon)
+                    <div class="yearbar"> <div class="year">2011</div></div>
+                    <a href="http://bit.ly/1a5N8eq"><img class="thumb"src="imgs/thunbs/clafingersthumb.jpg" /></a>
+                    <a href="http://bit.ly/1k4Dxyg"><img class="thumb"src="imgs/thunbs/pao1thumb.jpg" /></a>
+                </div>
+                <div class="thpagebot"> All content ©<br />Aaminah Cole 2013</div>
+                   
+                    <!--ident Project Page-->
+                    <div class="project" id="iyspp">
+                    	<div class="rbmimg"> 
+                        <div class="cycle-slideshow" 
+    data-cycle-manual-fx="scrollHorz" 
+    data-cycle-timeout=0
+    data-cycle-prev=#myiprev
+    data-cycle-next=#myinext
+    data-cycle-loader=wait
+    data-cycle-center-horz=true
+    data-cycle-center-vert=true
+    data-cycle-caption="#myicount"
+    data-cycle-caption-template="{{slideNum}} / {{slideCount}}"
+    >
+                        </div>
+                        </div>
+                        <div class="projectinfo" >Identify Yourself<br />
+                            <div class="projyear"></div>
+                            <div class="projecttext">
+                            <p>Personal branding.</p>
+                            current: hex
+
+the icosahedron has become a prominent motif in my works, featured in patterns to 
+narrative pieces, functioning as a kind of identifier for myself. Aside from the
+personal significance it holds, graphically strong too;
+its silhouette simplifies down to a hexagon, easily recognizable, more distinct than a
+ circle or rectangle while neutrality of a basic shape. Its neutrality
+wouldnt distract from the image when using as a watermark/stamp and can 
+be dressed up as several variations show. these factors led 
+me to use in my personal logomark. 
+                            </div>
+                        </div>
+                    </div><!---->
+                </div><!---rbcontent-->
+            </div>              
+
+        </div>
+</div>
+</div>
+<p>&nbsp;</p>
+<p>&nbsp; </p>
+<script>
+$(document).ready(function(){
+		var windowHeight = $(window).height();
+	$('.project').css({maxHeight:windowHeight - 155});	
+	$(".thumbpage").hide();
+	$(".project").hide();
+	$(".active").hide();
+	$("#icongal").show();
+	$("#icona").show();
+	$("#icon0").hide();
+});
+function jqUpdateSize(){
+	$(document).ready(jqUpdateSize);
+	var width = $(window).width();
+    var height = $(window).height();
+    $('#jqWidth').html(width);
+	$('#jqHeight').html(height);
+};
+//mainlinks
+$("#patl").click(function(){
+	window.location.href = "patterns.html";
+        });
+$("#sketchl").click(function(){
+	window.location.href = "sketches.html";
+        });
+$("#illusl").click(function(){
+	window.location.href = "illustration.html";
+        });
+$("#desl").click(function(){
+	window.location.href = "design.html";
+        });
+$("#wordl").click(function(){
+	window.location.href = "words.html";
+        });
+$("#abt").click(function(){
+	window.location.href = "about.html";
+        });
+$("#home").click(function(){
+	window.location.href = "index.html";
+        });
+//pagelinks
+		$("#icon0,#icona, #desl").click(function(){
+			$(".project").hide();
+			$("#icongal").show();
+			$("#webgal").hide();
+			$("#weba").hide()
+			$("#web0").show()
+		});
+		$("#web0").click(function(){
+			$(".project").hide();
+			$("#webgal").show();
+				$("#weba").show();
+				$("#web0").hide();
+			$("#icongal").hide();
+				$("#icona").hide();
+				$("#icon0").show();
+		});
+		
+  </script>
+</body>
+</html>
