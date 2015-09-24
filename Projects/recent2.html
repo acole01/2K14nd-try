@@ -1,0 +1,131 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Drawings and Design by Aaminah Cole</title>
+
+<link rel="stylesheet" href="../styles recent.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="../styles m.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="../thumbnails.css" type="text/css" media="screen" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+<script src="../jquery.cycle2.js"></script>
+<script src="../jquery.cycle2.center.min.js"></script>
+</head>
+
+<body>
+<div id="whole">
+    <div id="boundingbox">
+        <div id="flag" style="">
+            <a href="#" id="home"><img src="../logo.jpg" width="80px" /></a><br /><br />
+            <a href="#" id="abt">Aaminah Cole</a><br />
+			<a href="#" class="m3l" id="illusl">Illustration</a>&#8226;
+            <a href="#" class="m3l"id="desl">Design</a>&#8226;
+            <a href="#" class="m3l"id="wordl">Words</a><br />
+            <div id="copyright"> All content ©<br />Aaminah Cole 2013</div>
+          </div>
+            <img src="../flagbottom bb.gif" id="flagbottom" width="218px" />
+         <div id="rightbody"> 
+         <div class="headerb">
+                <div class="headerc">
+					Recent Work</div></div>
+          		<div class="rbcontent">
+                    <!--Project Page-->
+                    <div class="project">
+                                               
+                    	<div class="rbmimg"> 
+                        <div class="cycle-slideshow" 
+    data-cycle-manual-fx="scrollHorz" 
+    data-cycle-fx="scrollHorz"
+    data-cycle-timeout=4000
+    data-cycle-pause-on-hover="true"
+    data-cycle-slides="> div"
+    data-cycle-prev=#prev
+    data-cycle-next=#next
+    data-cycle-loader=wait
+    data-cycle-center-horz=true
+    data-cycle-center-vert=true
+    data-cycle-caption="#count"
+    data-cycle-caption-template="{{slideNum}} / {{slideCount}}"
+    data-cycle-pager-template=""
+    data-cycle-pager="#rpager"
+    >
+                            <div class="slide">
+                            	<img src="../recent/hoss.jpg" width="500px"/>
+                                <div class="rcap"><b><span style="font-size: 24px;">Jump</b></span><br/>
+                                <span style="font-size: 18px;">2014</span><br /></div>
+                            </div>
+                            <div class="slide"> 
+                            <img src="../recent/werewolft.jpg" />
+                            <div class="rcap"><b><span style="font-size: 24px;">Werewolf</b></span><br/>
+                                <span style="font-size: 18px;">2014</span><br /></div>
+                            </div>
+                            <div class="slide">
+                            <img src="../recent/dragon illo.jpg" />
+                            <div class="rcap"><b><span style="font-size: 24px;">Slain</b></span><br/>
+                                <span style="font-size: 18px;">2014</span><br /> Work in progress</div>
+                            </div>
+                            <div class="slide">
+                            <img src="../recent/gryphon.jpg" />
+                            <div class="rcap"><b><span style="font-size: 24px;">Gryphon</b></span><br/>
+                                <span style="font-size: 18px;">2013</span><br /></div>
+                            </div>
+                        </div>                      	
+                        </div>
+                        <div id="countb" ><a href="#" id="prev">&lt;</a><div id="count" class="count"></div><a href="#" id="next">&gt;</a></div>
+                        <div class="projectinfo" >
+                        <div id="rpager" class=" pager" style="height: 120px;">
+                        	<img src="../recent/thumbs/horset.jpg" />
+                            <img src="../recent/thumbs/wolft.jpg" />
+                            <img src="../recent/thumbs/dragont.jpg" />
+                            <img src="../recent/thumbs/gryphont.jpg">
+                        </div>
+                            <div class="projecttext">
+                            
+                            </div>
+                            <div class="projectsidegal">                           
+                            </div>
+                        </div>
+                    </div>
+                    </div><!---->
+                </div> <!--rbc-->            
+			</div> <!--rb-->      
+		</div><!--bb-->
+	
+</div>
+<script>
+$(document).ready(function(){
+	 var windowHeight = $(window).height();
+	 var windowWidth = $(window).width();
+	$('.project').css({maxHeight:windowHeight - 155});
+	$(".active").hide();
+	$(".im").show();
+});
+//mainlinks
+$("#patl").click(function(){
+	window.location.href = "../patterns.html";
+        });
+$("#sketchl").click(function(){
+	window.location.href = "../sketches.html";
+
+        });
+$("#illusl").click(function(){
+	window.location.href = "../illustration.html";
+        });
+$("#desl").click(function(){
+	window.location.href = "../design.html";
+        });
+$("#wordl").click(function(){
+	window.location.href = "../words.html";
+        });
+$("#abt").click(function(){
+	window.location.href = "../about.html";
+        });
+$("#home").click(function(){
+	window.location.href = "../index.html";
+        });
+//pokey show
+$("#pokeypp").show();
+
+</script>
+</body>
+</html>

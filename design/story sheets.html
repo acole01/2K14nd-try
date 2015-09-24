@@ -1,0 +1,114 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Drawings and Design by Aaminah Cole</title>
+
+<link href='http://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="../styles idw.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="../styles m.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="../thumbnails.css" type="text/css" media="screen" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+<script src="../jquery.cycle2.js"></script>
+<script src="../jquery.cycle2.center.min.js"></script>
+</head>
+
+<body>
+<div id="whole">
+        <div id="boundingbox">
+            <div id="flag" style="border: white;">
+            <a href="#" id="home"><img src="../logo.jpg" width="80px" /></a><br /><br />
+            <a href="../about.html" id="abt">Aaminah Cole</a><br />
+			<a href="../illustration.html" class="m3l" id="illusl">Illustration</a>&#8226;
+            <a href="../design.html" class="m3l"id="desl">Design</a>&#8226;
+            <a href="../pattern/bears/index.html" class="m3l"id="patternl">Pattern</a><br />
+
+              <div id="copyright"> All content ©<br />Aaminah Cole 2013</div>
+              </div>
+              <img src="../218flagbw.png" id="flagbottom" width="218px" />
+            <div id="rightbody"> 
+            	
+                <div class="rbcontent">
+                     
+                    <!--my icons Project Page-->
+                    <div class="project" id="myipp">
+                    		<div class="rbmimg">
+                        <div class="cycle-slideshow" 
+    data-cycle-manual-fx="scrollHorz" 
+    data-cycle-timeout=0
+    data-cycle-prev=#myiprev
+    data-cycle-next=#myinext
+    data-cycle-loader=wait
+    data-cycle-center-horz=true
+    data-cycle-center-vert=true
+    data-cycle-caption="#myicount"
+    data-cycle-caption-template="{{slideNum}} / {{slideCount}}"
+    >
+                        <img src="../imgs/design/Icons/iconsheets/Iconsheet_engrish_AaminahCole.jpg" />
+                        <img src="../imgs/design/Icons/iconsheets/icon-page.gif" />
+                        <img src="../imgs/design/Icons/iconsheets/main-cast.gif" height="100%"/>
+                        <img src="../imgs/design/Icons/iconsheets/u-3.gif" />
+                        <img src="../imgs/design/Icons/iconsheets/wm-bs.gif" />
+                        <img src="../imgs/design/Icons/iconsheets/u-2.gif" />
+                        <img src="../imgs/design/Icons/iconsheets/tnv.gif" />
+                        <img src="../imgs/design/Icons/iconsheets/u-5.gif" />
+                        <img src="../imgs/design/Icons/iconsheets/u-4.gif" />
+                        </div>
+                        </div>
+                        <div id="countb"><a href="#" id="myiprev">&lt;</a><div id="myicount" class="count"></div><a href="#" id="myinext">&gt;</a></div>
+                        <div class="projectinfo" >
+                        Story Sheets<br />
+                            <div class="projyear">Summer 2012</div>
+                            <div class="projecttext">
+                            <p> One summer I set out to finally produce something towards my many personal narratives that I could put out there strong enough stand alone, while also referencing/stoking interest for the larger stories. Obsessive overtasker that I am, this demanded I create icons for all 32 of my characters&mdash;but with revisions included (I am a perfectionist) I ended up making 48 icons in total. It was a lot of work, but the enjoyable stimulating kind.</p>
+                            <p>Presenting them all as kind of dingy photocopies from a poorly translated guide was my original intention: it rang true to my aesthetic, that of my projects, and my sense of humor, but with plotlines already parsed down to blurbs, the further stress of engrish was too much to faithfully convey the needed info.</p>
+<p>It was fun to immitate the analog artifacts of poor photocopies completely digitally,and I definitely plan to revisit the aesthetic.</p>
+                            </div>
+                        </div>
+                  </div>
+                         
+</div>
+<script>
+$(document).ready(function(){
+		var windowHeight = $(window).height();
+	$('.project').css({maxHeight:windowHeight - 155});	
+	$(".thumbpage").hide();
+	$(".active").hide();
+	$("#icongal").show();
+	$("#icona").show();
+	$("#icon0").hide();
+});
+function jqUpdateSize(){
+	$(document).ready(jqUpdateSize);
+	var width = $(window).width();
+    var height = $(window).height();
+    $('#jqWidth').html(width);
+	$('#jqHeight').html(height);
+};
+//mainlinks
+$("#patl").click(function(){
+	window.location.href = "patterns.html";
+        });
+$("#sketchl").click(function(){
+	window.location.href = "sketches.html";
+        });
+$("#illusl").click(function(){
+	window.location.href = "illustration.html";
+        });
+$("#desl").click(function(){
+	window.location.href = "design.html";
+        });
+$("#wordl").click(function(){
+	window.location.href = "words.html";
+        });
+$("#abt").click(function(){
+	window.location.href = "about.html";
+        });
+$("#home").click(function(){
+	window.location.href = "index.html";
+        });
+//pagelinks
+		
+  </script>
+</body>
+</html>

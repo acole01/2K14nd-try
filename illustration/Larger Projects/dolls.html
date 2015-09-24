@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Paper Dolls</title>
+
+<link href='http://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="../../styles idw.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="../../styles m.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="../../thumbnails.css" type="text/css" media="screen" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+<script src="../../jquery.cycle2.js"></script>
+<script src="../../jquery.cycle2.center.min.js"></script>
+</head>
+
+<body>
+<div id="whole">
+        <div id="boundingbox">
+            <div id="flag" style="border: white;">
+            <a href="#" id="home"><img src="../../logo.jpg" width="80px" /></a><br /><br />
+            <a href="#" id="abt">Aaminah Cole</a><br />
+            <span style="font-size:16px;">
+			<a href="#" class="m3l"id="illusl">Illustration</a>&#8226;
+            <a href="#" class="m3l"id="desl">Design</a>&#8226;
+            <a href="#" class="m3l"id="wordl">Words</a></span><br />
+
+              <div id="copyright"> All content ©<br />Aaminah Cole 2013</div>
+              </div>
+              <img src="../../218flagbw.png" id="flagbottom" width="218px" />
+            <div id="rightbody"> 
+            	
+                <div class="rbcontent">
+                <!-- doll Project Page-->
+                    <div class="project" id="dollpp">
+                    	<div class="rbmimg">
+                        <div class="cycle-slideshow" 
+    data-cycle-manual-fx="scrollHorz" 
+    data-cycle-timeout=0
+    data-cycle-prev=#dollrev
+    data-cycle-next=#dollnext
+    data-cycle-loader=wait
+    data-cycle-center-horz=true
+    data-cycle-center-vert=true
+    data-cycle-caption="#dollcount"
+    data-cycle-caption-template="{{slideNum}} / {{slideCount}}"
+    >
+                        <img src="../../imgs/projects/dolls/paper dolls week 1.jpg" />
+                        <img src="../../imgs/projects/dolls/new dolls 2.jpg" />
+                        <img src="../../imgs/projects/dolls/w13.jpg" />
+                        <img src="../../imgs/projects/dolls/dolls week 6.jpg" />
+                        <img src="../../imgs/projects/dolls/fperrypat.png" />
+                        <img src="../../imgs/projects/dolls/paperdoll outfits.jpg" />
+                        <img src="../../imgs/projects/dolls/girl doll revised.jpg" />
+                        </div>
+                        </div>
+                        <div id="countb" ><a href="#" id="dollrev">&lt;</a><div id="dollcount" class="count"></div><a href="#" id="dollnext">&gt;</a></div>
+                        <div class="projectinfo" > Paper Dolls<br />
+                            <div class="projyear">Fall 2012</div>
+                            <div class="projecttext">
+                            A semester long assignment from Lifestyle Illustration; we were tasked with making then dressing paper dolls every week. My dolls tried on a variety of styles looking for something comfortable&mdash;and I don't mean just clothing! I completely made them over, redrawing them from scratch in a completely different style about 3 weeks in. I also made the conscious decision to draw three POC as my models because underrepresentation in the fashion industry is an issue I feel strongly about. 
+                            </div>
+                            <div class="projectsidegal">                           
+                            </div>
+                        </div>
+                    </div>
+                         
+</div>
+<script>
+$(document).ready(function(){
+		var windowHeight = $(window).height();
+	$('.project').css({maxHeight:windowHeight - 155});	
+	$(".thumbpage").hide();
+	$(".active").hide();
+	$("#icongal").show();
+	$("#icona").show();
+	$("#icon0").hide();
+});
+function jqUpdateSize(){
+	$(document).ready(jqUpdateSize);
+	var width = $(window).width();
+    var height = $(window).height();
+    $('#jqWidth').html(width);
+	$('#jqHeight').html(height);
+};
+//mainlinks
+$("#patl").click(function(){
+	window.location.href = "patterns.html";
+        });
+$("#sketchl").click(function(){
+	window.location.href = "sketches.html";
+        });
+$("#illusl").click(function(){
+	window.location.href = "illustration.html";
+        });
+$("#desl").click(function(){
+	window.location.href = "design.html";
+        });
+$("#wordl").click(function(){
+	window.location.href = "words.html";
+        });
+$("#abt").click(function(){
+	window.location.href = "about.html";
+        });
+$("#home").click(function(){
+	window.location.href = "index.html";
+        });
+//pagelinks
+		
+  </script>
+</body>
+</html>

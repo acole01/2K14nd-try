@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Pattern - Pokey</title>
+
+<link rel="stylesheet" href="../pattern.css" type="text/css" media="screen" />
+<script type="text/javascript" src="../../jquery-1.5.min.js"></script>
+</head>
+
+<body>
+<div id="whole">
+        <div id="boundingbox">
+        <div id="flag" style="border: white;">
+            <a href="#" id="home"><img src="../../logo.jpg" width="80px" /></a><br />
+            <span style="font-size:12pt;">
+            <a href="#" class="m3l" id="illusl">Illustration </a>&#8226;
+            <a href="#" class="m3l"id="desl">Design </a>&#8226;
+            <a href="#" class="m3l"id="wordl">Words</a></span><br /><br />
+             
+             <div class="pnameinfo pokey" >Pattern:<br />
+              <span style="font-family: playfair black;">Pokey Pattern</span><br />  
+              <a href="#" class="infolink pokey" id="pokeyinfo">info</a>
+              </div> 
+              <a href="../bears" class="pokey pn p" id="pokeyprev">prev</a>
+              <a href="../spacedog" class="pokey pn n" id="pokeynext">next</a>
+              
+             <div id="copyright">
+             All content ©<br />Aaminah Cole 2013
+             </div>
+             <img src="../../218flagbw.png" id="flagbottom" />
+             </div>
+            
+           <div class="infobox" id="pokeyinfob">
+               Pokey Pattern/<span style="color:#999; font-size: 24px; font-family:'Times', Times, serif; font-weight:bold;">2013</span>
+            	<div class="infoc pokey" id="pokeyinfoc" >
+                Part of my larger project <a href="#" class="projectlink pokeyp"><b>Pokey Product Suite</b></a> Go to project page for more&gt;&gt;</a> <br />
+                I designed this pattern for use across a suite of products (varying from shoulder bags to sketchbook covers) to unify them all around a character. The tile for this is huge, a consequence of prioritizing <b>keeping a consistent density, and keeping the tile's "seams" hidden.</b> It led me to later question if I'd met my goal: maybe the seams arent obvious <i>because they're fewer</i>, not because they're well hidden. <blockquote><img src="../../imgs/design/pattern/all poses t.jpg" /><br />Individual poses </blockquote> 
+                </div>
+           </div>
+            
+            </div>  
+        <div id="whole2"></div> 
+        <div class="pattern pokey" id="pokeypat"> 
+   		</div>
+</div>
+<script>
+$("#illusl").click(function(){
+	window.location.href = "illustration.html";
+        });
+$("#desl").click(function(){
+	window.location.href = "design.html";
+        });
+$("#wordl").click(function(){
+	window.location.href = "words.html";
+        });
+$("#abt").click(function(){
+	window.location.href = "about.html";
+        });
+$("#home").click(function(){
+	window.location.href = "index.html";
+        });
+		$(".pokey").show();
+		$("#pokeyinfo").click(function(){
+			$("#pokeyinfob").show();
+			});
+
+</script>
+</body>
+</html>

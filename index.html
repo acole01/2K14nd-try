@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Drawings and Design by Aaminah Cole</title>
+
+<link rel="stylesheet" href="styles idw.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="styles m.css" type="text/css" media="screen" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+</head>
+
+<body>
+<div id="whole">
+        <div id="boundingbox">
+            <div id="flag" style="border: white;">
+            <a href="#" id="home"><img src="logo.jpg" width="80px" /></a><br /><br />
+            <a href="#" id="abt">Aaminah Cole</a><br />           
+			<a href="#" class="m3l"id="illusl">Illustration</a>&#8226;
+            <a href="#" class="m3l"id="desl">Design</a>&#8226;
+            <a href="#" class="m3l"id="wordl">Words</a></span><br />
+            <div id="copyright"> All content ©<br />Aaminah Cole 2013</div>
+            </div>
+            <img src="218flagbw.png" id="flagbottom" style="width: 216px;"/> 
+            
+                
+            <div class="infobox" id="" style="border: 1px dotted #ccc;">
+            NEWS/<span style="color:#999; font-size: 24px; font-family:'Times', Times, serif; font-weight:bold;">etc</span>
+                <div class="infoc" id="news" style="font-size: 14px; font-family:'Times', Times, serif;">
+                    1.8.14<br />
+                    --<br />
+                    SITE RELAUNCH!!!<br />
+                    Don't everyone come and flood me all at once again ahaha.<br />
+				  Everything is for the most part up and working, but if I may direct you specifically to the <b><a href="sketches.html">Sketch</a></b> and <b><a href="patterns.html">Pattern</a></b> pages, I am the most satisfied with them.<br />
+					There are still some kinks to iron out and content to add, I'll keep the newsbox updated.
+                    </div>
+                </div>
+                <!---->
+                <div id="floaty">
+                <object type="application/x-shockwave-flash" data="anim/float.swf" width="300" height="650" align="left"> 
+                    <param name="movie" value="anim/float.swf" />
+                    <param name="quality" value="high" />
+                    <param name="wmode" value="transparent" />
+                    <!-- Sandwich the embed tag inside the object tag -->
+                    <embed src="anim/float.swf" quality="high" />
+                </object>
+            	<object type="application/x-shockwave-flash" data="anim/float 2.swf" width="300" height="1000" align="right"> 
+                    <param name="movie" value="anim/float 2.swf" />
+                    <param name="quality" value="high" />
+                    <param name="wmode" value="transparent" />
+                    <embed src="anim/float 2.swf" quality="high" />
+                </object>
+            </div> <!--/floaty--> 
+        </div>
+	</div>
+</div>
+<script>
+$(document).ready(function(){
+	$("#news").show();
+});	
+$("#illusl").click(function(){
+	window.location.href = "illustration.html";
+        });
+$("#desl").click(function(){
+	window.location.href = "design.html";
+        });
+$("#wordl").click(function(){
+	window.location.href = "words.html";
+        });
+$("#abt").click(function(){
+	window.location.href = "about.html";
+        });
+$("#home").click(function(){
+	window.location.href = "index.html";
+        });
+</script>
+</body>
+</html>

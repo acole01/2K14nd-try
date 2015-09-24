@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Drawings and Design by Aaminah Cole</title>
+
+<link href='http://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="../styles idw.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="../styles m.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="../thumbnails.css" type="text/css" media="screen" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+<script src="../jquery.cycle2.js"></script>
+<script src="../jquery.cycle2.center.min.js"></script>
+</head>
+
+<body>
+<div id="whole">
+        <div id="boundingbox">
+            <div id="flag" style="border: white;">
+            a href="#" id="home"><img src="../../logo.jpg" width="80px" /></a><br /><br />
+            <a href="../about.html" id="abt">Aaminah Cole</a><br />
+			<a href="../illustration.html" class="m3l" id="illusl">Illustration</a>&#8226;
+            <a href="../design.html" class="m3l"id="desl">Design</a>&#8226;
+            <a href="../pattern/bears/index.html" class="m3l"id="patternl">Pattern</a><br />
+
+              <div id="copyright"> All content ©<br />Aaminah Cole 2013</div>
+              </div>
+              <img src="218flagbw.png" id="flagbottom" width="218px" />
+            <div id="rightbody"> 
+            	
+                <div class="rbcontent">
+                     
+                   <!--cust Project Page-->
+                    <div class="project" id="custpp">
+                    	<div class="rbmimg"> 
+                        <img src="../imgs/design/Icons/customization/custom icons.png" />        	
+                        </div>
+                        <div class="projectinfo" > Customized Drive Icons<br />
+                            <div class="projyear">Summer 2011</div>
+                            <div class="projectsidegal"> 
+                            <img src="../imgs/design/Icons/customization/backup.jpg" />
+                            <img src="../imgs/design/Icons/customization/active.jpg" />
+                            <img src="../imgs/design/Icons/customization/ds.jpg" />                
+                            </div>
+                            <div class="projecttext">
+                            Customization has always been a hobby of mine, from past LJ layouts to my DS homebrew skin. After completing a series of character designs for my external storage, the next logical step seemed to be to add the art onto the drives somehow. 
+                            <p>Some devices come with customized icons/logos pre-installed that autorun when the device is plugged in--that seemed like a really neat way to "attach" the art, and for one thing it would be more durable than applying the art physically to the drive covers. <i>But how to do it...?</i> </p>
+                            <p>After some brief research, I'd learned that Windows requires four different sizes for icons at 16, 32, 48, and 256 pixels squared, found a program capable of converting image formats into .ico, standard icon format, and also that getting the icons to appear on plug-in was as simple as a one line autorun file. 
+                            </div>
+                        </div>
+                  </div>
+                         
+</div>
+<script>
+$(document).ready(function(){
+		var windowHeight = $(window).height();
+	$('.project').css({maxHeight:windowHeight - 155});	
+	$(".thumbpage").hide();
+	$(".active").hide();
+	$("#icongal").show();
+	$("#icona").show();
+	$("#icon0").hide();
+});
+function jqUpdateSize(){
+	$(document).ready(jqUpdateSize);
+	var width = $(window).width();
+    var height = $(window).height();
+    $('#jqWidth').html(width);
+	$('#jqHeight').html(height);
+};
+//mainlinks
+$("#patl").click(function(){
+	window.location.href = "patterns.html";
+        });
+$("#sketchl").click(function(){
+	window.location.href = "sketches.html";
+        });
+$("#illusl").click(function(){
+	window.location.href = "illustration.html";
+        });
+$("#desl").click(function(){
+	window.location.href = "design.html";
+        });
+$("#wordl").click(function(){
+	window.location.href = "words.html";
+        });
+$("#abt").click(function(){
+	window.location.href = "about.html";
+        });
+$("#home").click(function(){
+	window.location.href = "index.html";
+        });
+//pagelinks
+		
+  </script>
+</body>
+</html>
